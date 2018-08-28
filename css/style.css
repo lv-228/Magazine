@@ -1,0 +1,95 @@
+
+@font-face{
+	font-family: 'Ubuntu';
+	src:url(fonts/Ubuntu/Ubuntu-Regular.ttf) format('ttf');
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Ubuntu';
+	font-size: 20px;
+}
+
+
+#bot-window{
+	float: right;
+	width: 500px;
+	margin-right: 10px;
+	margin-top: calc(100vh - 600px);
+
+}
+
+#hbot{
+	background-color: rgb(19,242,56);
+	border-radius: 10px 10px 0 0;
+	height: 45px
+
+}
+
+#hbot > h3{
+	margin-left: 10px;
+}
+
+#bot-main{
+	background-color: rgb(214,214,214);
+	min-height: 350px;
+	max-height: 350px;
+	overflow: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#bot-message{
+	margin-top:10px;
+	margin-left: 10px;
+	background-color: rgb(255,255,255);
+	float: left;
+	min-height: 50px;
+	width: 50%;
+	border-radius: 0px 5px 5px 5px;
+}
+
+#user-message{
+	margin-top:10px;
+	margin-right: 10px;
+	background-color: rgb(255,255,255);
+	float: right;
+	min-height: 50px;
+	width: 50%;
+	border-radius: 5px 0px 5px 5px;
+}
+
+#bot-footer{
+	background-color: rgba(19,94,242,0.5);
+	min-height: 150px;
+	max-height: 150px;
+}
+
+#textarea-bot{
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 0px 10px 10px 10px;
+	resize: none;
+}
+
+th {
+  font-size: 17px;
+  font-weight: normal;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+  padding: 8px;
+}
+td {
+  background: #e8edff;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+tr:hover td {background: #ccddff;}
+
+table{
+	width: 100%;
+}
